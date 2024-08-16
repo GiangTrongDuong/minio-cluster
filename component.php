@@ -2,7 +2,7 @@
 // component.php
 
 // Define a message to be displayed
-$message = "Thank you for visiting our site! We're excited to show you what we have to offer.";
+$message = "Thank you for visiting our site! please give us more time to work on the site *wink (we only build the unix server for now haha).";
 
 // Function to display the message
 function displayMessage($msg) {

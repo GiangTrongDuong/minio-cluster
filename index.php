@@ -57,7 +57,7 @@ include 'component.php';
         displayMessage($message);
         ?>
 
-        <a href="#contact" class="cta-button">Get in Touch</a>
+        <a href="../listing.php">Go to Listing Page</a>
     </div>
 </body>
 </html>

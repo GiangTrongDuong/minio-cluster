@@ -7,7 +7,7 @@ use Aws\S3\S3Client;
 // Initialize the S3 Client to connect with MinIO
 $s3Client = new S3Client([
     'version' => 'latest',
-    'region'  => 'us-east-1',
+    'region'  => 'ap-southeast-1',
     'endpoint' => 'https://localhost:9000', // Your MinIO server URL
     'use_path_style_endpoint' => true, // This is important for MinIO compatibility
     'credentials' => [
@@ -26,8 +26,8 @@ $bucketName = 'bucket-test';
 // Example: Upload a file
 $s3Client->putObject([
     'Bucket' => $bucketName,
-    'Key'    => 'Untitled design.png',
-    'SourceFile' => "C:\Users\gtdpr\Downloads\Untitled design.png",
+    'Key'    => 'imageTest.png',
+    'SourceFile' => 'C:\Users\gtdpr\Downloads\imageTest.png',
 ]);
 
 echo "File uploaded successfully.\n";

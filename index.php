@@ -1,6 +1,6 @@
 <?php
 // These are use to test if PHP is working on linux!!!!!
-$title = "Welcome to My Landing Page";
+$title = "Welcome to Group 2 Landing Pages demo for real estate";
 include 'component.php';
 ?>
 
@@ -51,9 +51,8 @@ include 'component.php';
     <div class="container">
         <h1><?php echo htmlspecialchars($title); ?></h1>
         <p>This site is working using php???.</p>
-        // Called the component from php
+        // Called the component from php below: 
         <?php
-        
         displayMessage($message);
         ?>
 

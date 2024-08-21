@@ -57,7 +57,7 @@ include 'component.php';
         displayMessage($message);
         ?>
 
-        <a href="../listing.php">Go to Listing Page</a>
+        <a href="../databaseworking.php">Go to Listing Page</a>
     </div>
 </body>
 </html>

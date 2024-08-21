@@ -2,8 +2,8 @@
 // Database connection parameters
 $servername = "localhost";
 $username = "root";
-$password = "";
-$database = "mock_database";
+$password = "UnixPassword123@";
+$database = "real_estate_test";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $database);

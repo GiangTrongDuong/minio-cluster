@@ -29,6 +29,7 @@ $result = $conn->query($sql);
     <title>Listings</title>
 </head>
 <body>
+<a href="../index.php">Go to Landing Pages</a>
     <h1>Available Listings</h1>
     <?php
     if ($result->num_rows > 0) {

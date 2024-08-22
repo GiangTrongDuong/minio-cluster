@@ -23,7 +23,7 @@ $s3Client = new S3Client([
 
 // Bucket and object details
 $bucketName = 'bucket-test';
-$objectKey = 'DJI_0001.MP4';
+$objectKey = 'DaiNamwMusic.mp4';
 
 try {
     // Generate a pre-signed URL for the video file
@@ -50,7 +50,7 @@ try {
     <title>Video Display</title>
 </head>
 <body>
-    <h1>Video: DJI_0001.MP4</h1>
+    <h1>Video: DaiNamwMusic.mp4"</h1>
     <video width="640" height="360" controls>
         <source src="<?php echo htmlspecialchars($presignedUrl); ?>" type="video/mp4">
         Your browser does not support the video tag.

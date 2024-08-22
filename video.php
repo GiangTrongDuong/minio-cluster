@@ -9,15 +9,15 @@ use Aws\Exception\AwsException;
 $s3Client = new S3Client([
     'version' => 'latest',
     'region'  => 'us-east-1',
-    'endpoint' => 'https://localhost:9000', // Your MinIO server URL
-    'use_path_style_endpoint' => true, // Important for MinIO compatibility
+    'endpoint' => 'https://localhost:9000', 
+    'use_path_style_endpoint' => true, 
     'credentials' => [
-        'key'    => 'LLmoBCtzQGjzCcjpIHSz', // Replace with your MinIO access key
-        'secret' => 'UmzsaUaxFJ0SthhcoT5tXwgYltPxzAqbTevT5FV8', // Replace with your MinIO secret key
+        'key'    => 'LLmoBCtzQGjzCcjpIHSz', 
+        'secret' => 'UmzsaUaxFJ0SthhcoT5tXwgYltPxzAqbTevT5FV8', 
     ],
-    'scheme' => 'https', // Since the URL is using https
+    'scheme' => 'https', 
     'http' => [
-        'verify' => false, // Skip SSL certificate verification (useful if self-signed)
+        'verify' => false, 
     ],
 ]);
 

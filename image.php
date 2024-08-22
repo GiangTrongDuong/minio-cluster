@@ -59,6 +59,11 @@ $image2Url = getPresignedUrlOrError($s3Client, $bucketName, $image2Key);
     <h2>Cowboy Downloaded.jpg</h2>
     <?php if ($image1Url): ?>
         <img src="<?php echo htmlspecialchars($image1Url); ?>" alt="Cowboy Downloaded" width="640" height="360">
+        <br>
+        <!-- Button to download the image -->
+        <a href="<?php echo htmlspecialchars($image1Url); ?>" download="cowboy_downloaded.jpg">
+            <button>Download Cowboy Downloaded.jpg</button>
+        </a>
     <?php else: ?>
         <p>Cannot fetch Cowboy Downloaded.jpg</p>
     <?php endif; ?>

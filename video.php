@@ -12,8 +12,8 @@ $s3Client = new S3Client([
     'endpoint' => 'https://localhost:9000', 
     'use_path_style_endpoint' => true, 
     'credentials' => [
-        'key'    => 'LLmoBCtzQGjzCcjpIHSz', 
-        'secret' => 'UmzsaUaxFJ0SthhcoT5tXwgYltPxzAqbTevT5FV8', 
+        'key'    => 'D32oRXTErlIYMEal1Odc', 
+        'secret' => 'zu63UssdRkHDEpksNPBwTzslHARDil66PmteliRS', 
     ],
     'scheme' => 'https', 
     'http' => [

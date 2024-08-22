@@ -11,8 +11,8 @@ $s3Client = new S3Client([
     'endpoint' => 'https://localhost:9000', // Your MinIO server URL
     'use_path_style_endpoint' => true, // This is important for MinIO compatibility
     'credentials' => [
-        'key'    => 'LLmoBCtzQGjzCcjpIHSz', // Replace with your MinIO access key
-        'secret' => 'UmzsaUaxFJ0SthhcoT5tXwgYltPxzAqbTevT5FV8', // Replace with your MinIO secret key
+        'key'    => 'D32oRXTErlIYMEal1Odc', // Replace with your MinIO access key
+        'secret' => 'zu63UssdRkHDEpksNPBwTzslHARDil66PmteliRS', // Replace with your MinIO secret key
     ],
     'scheme' => 'https', // Since the URL is using https
     'http' => [
